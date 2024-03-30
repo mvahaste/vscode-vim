@@ -2,6 +2,11 @@
 
 Settings that make VS Code faster and feel more like Vim.
 
+## Dependencies
+[Vim](aka.ms/vscodevim) extension for VS Code.
+
+## Settings
+
 `keybindings.json`
 
 ```json5
