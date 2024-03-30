@@ -69,7 +69,6 @@ Settings that make VS Code faster and feel more like Vim.
 
 ```json5
 {
-    ...
     "vim.useSystemClipboard": true,
 	"vim.normalModeKeyBindings": [
 		// Semicolon opens vim command line
@@ -92,6 +91,5 @@ Settings that make VS Code faster and feel more like Vim.
 			"commands": ["workbench.action.previousEditor"]
 		}
 	],
-    ...
 }
 ```
