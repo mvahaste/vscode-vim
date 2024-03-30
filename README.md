@@ -71,6 +71,12 @@ Settings that make VS Code faster and feel more like Vim.
 		"key": "a",
 		"command": "explorer.newFile",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// D+Y deletes file/folder in explorer
+	{
+		"key": "d y",
+		"command": "moveFileToTrash",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	}
 ]
 ```
