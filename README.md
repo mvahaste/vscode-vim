@@ -11,6 +11,11 @@ Settings that make VS Code faster and feel more like Vim.
 
 ```json5
 [
+	// Ctrl+W close editor
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.closeActiveEditor"
+	},
 	// Ctrl+P opens quick open
 	{
 		"key": "ctrl+p",
