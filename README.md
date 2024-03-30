@@ -26,6 +26,11 @@ Settings that make VS Code faster and feel more like Vim.
 		"command": "workbench.action.focusActiveEditorGroup",
 		"when": "terminalFocus"
 	},
+	// Ctrl+Y toggle terminal (open or close)
+	{
+		"key": "ctrl+y",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
 	// Ctrl+H focus left editor
 	{
 		"key": "ctrl+h",
