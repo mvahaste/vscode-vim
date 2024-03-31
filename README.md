@@ -29,15 +29,16 @@ I also recommend installing these:
 
 ```json5
 {
-    	"explorer.confirmDelete": false,
+	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"editor.lightbulb.enabled": "off",
 	"editor.stickyScroll.enabled": true,
 	"editor.linkedEditing": true,
 	"editor.suggest.insertMode": "replace",
 	"editor.lineNumbers": "relative",
 	"editor.cursorSurroundingLines": 10,
-	"breadcrumbs.enabled": false,
 	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
 	"vim.leader": "<space>",
 	"vim.foldfix": true,
 	"vim.hlsearch": true,
