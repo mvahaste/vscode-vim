@@ -114,6 +114,13 @@ I also recommend installing these:
 			"commands": ["editor.action.marker.prev"]
 		}
 	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		// Leader+/ to comment/uncomment line
+		{
+			"before": ["<leader>", "/"],
+			"commands": ["editor.action.commentLine"]
+		}
+	],
 }
 ```
 
