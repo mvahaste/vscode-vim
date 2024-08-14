@@ -6,28 +6,29 @@ Settings that make VS Code faster and feel more like Vim.
 
 These settings rely on the following:
 
-- [Vim for VS Code](aka.ms/vscodevim)
-- [Toggle Boolean](https://marketplace.visualstudio.com/items?itemName=silesky.toggle-boolean)
-- [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
-- [JetBrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads)
+-  [Vim for VS Code](aka.ms/vscodevim)
+-  [Toggle Boolean](https://marketplace.visualstudio.com/items?itemName=silesky.toggle-boolean)
+-  [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
+-  [JetBrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ### Nice to have
 
 I also recommend installing these:
 
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
-- [Lorem ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
-- [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts)
-- [Insert Unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode)
+-  [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+-  [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+-  [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+-  [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+-  [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+-  [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
+-  [Lorem ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
+-  [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts)
+-  [Insert Unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode)
 
 ### Easier Virtual Desktop switching in Windows:
-- [AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe)
-- [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher) (custom config below)
+
+-  [AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe)
+-  [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher) (custom config below)
 
 ## Settings
 
@@ -39,11 +40,11 @@ I also recommend installing these:
 		".part.statusbar": "box-shadow: 0px 0px 6px 0px var(--vscode-scrollbar-shadow);",
 		".part.sidebar": "box-shadow: 0px 32px 6px 0px var(--vscode-scrollbar-shadow);",
 		".editor .scrollbar .slider": "visibility: hidden;",
-		".editor .scrollbar:hover .slider": "visibility: initial"
+		".editor .scrollbar:hover .slider": "visibility: initial",
 	},
 	"apc.font.family": "JetBrainsMono Nerd Font",
 	"apc.header": {
-		"height": 30
+		height: 30,
 	},
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
@@ -62,80 +63,80 @@ I also recommend installing these:
 	"vim.normalModeKeyBindingsNonRecursive": [
 		// Semicolon opens vim command line
 		{
-			"before": [";"],
-			"commands": ["vim.showQuickpickCmdLine"]
+			before: [";"],
+			commands: ["vim.showQuickpickCmdLine"],
 		},
 		// Leader+F+F opens quick open
 		{
-			"before": ["<leader>", "f", "f"],
-			"commands": ["workbench.action.quickOpen"]
+			before: ["<leader>", "f", "f"],
+			commands: ["workbench.action.quickOpen"],
 		},
 		// Leader+W to save
 		{
-			"before": ["<leader>", "w"],
-			"commands": [":w"]
+			before: ["<leader>", "w"],
+			commands: [":w"],
 		},
 		// Leader+Q to quit
 		{
-			"before": ["<leader>", "q"],
-			"commands": [":q"]
+			before: ["<leader>", "q"],
+			commands: [":q"],
 		},
 		// Leader+/ to comment/uncomment line
 		{
-			"before": ["<leader>", "/"],
-			"commands": ["editor.action.commentLine"]
+			before: ["<leader>", "/"],
+			commands: ["editor.action.commentLine"],
 		},
 		// Leader+I to toggle boolean
 		{
-			"before": ["<leader>", "i"],
-			"commands": ["extension.toggleBool"]
+			before: ["<leader>", "i"],
+			commands: ["extension.toggleBool"],
 		},
 		// Tab cycles editors in same group
 		{
-			"before": ["<tab>"],
-			"commands": ["workbench.action.nextEditorInGroup"]
+			before: ["<tab>"],
+			commands: ["workbench.action.nextEditorInGroup"],
 		},
 		{
-			"before": ["<shift+tab>"],
-			"commands": ["workbench.action.previousEditorInGroup"]
+			before: ["<shift+tab>"],
+			commands: ["workbench.action.previousEditorInGroup"],
 		},
 		// Leader+S to split editor
 		{
-			"before": ["<leader>", "s"],
-			"commands": [":vsp"]
+			before: ["<leader>", "s"],
+			commands: [":vsp"],
 		},
 		// Leader+D to go to definition
 		{
-			"before": ["<leader>", "d"],
-			"commands": ["editor.action.goToDeclaration"]
+			before: ["<leader>", "d"],
+			commands: ["editor.action.goToDeclaration"],
 		},
 		// Leader+A to open quick fix
 		{
-			"before": ["<leader>", "a"],
-			"commands": ["editor.action.quickFix"]
+			before: ["<leader>", "a"],
+			commands: ["editor.action.quickFix"],
 		},
 		// Leader+H to open hover
 		{
-			"before": ["<leader>", "h"],
-			"commands": ["editor.action.showHover"]
+			before: ["<leader>", "h"],
+			commands: ["editor.action.showHover"],
 		},
 		// ]+D to go to next diagnostic
 		{
-			"before": ["]", "d"],
-			"commands": ["editor.action.marker.next"]
+			before: ["]", "d"],
+			commands: ["editor.action.marker.next"],
 		},
 		// [ + D to go to previous diagnostic
 		{
-			"before": ["[", "d"],
-			"commands": ["editor.action.marker.prev"]
-		}
+			before: ["[", "d"],
+			commands: ["editor.action.marker.prev"],
+		},
 	],
 	"vim.visualModeKeyBindingsNonRecursive": [
 		// Leader+/ to comment/uncomment line
 		{
-			"before": ["<leader>", "/"],
-			"commands": ["editor.action.commentLine"]
-		}
+			before: ["<leader>", "/"],
+			commands: ["editor.action.commentLine"],
+		},
 	],
 	"editor.matchBrackets": "never",
 	"workbench.tips.enabled": false,
@@ -163,131 +164,131 @@ I also recommend installing these:
 ```json5
 [
 	{
-		"key": "ctrl+shift+c",
-		"command": "-workbench.action.terminal.copySelection",
-		"when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+		key: "ctrl+shift+c",
+		command: "-workbench.action.terminal.copySelection",
+		when: "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected",
 	},
 	{
-		"key": "ctrl+shift+c",
-		"command": "-workbench.action.terminal.openNativeConsole",
-		"when": "!terminalFocus"
+		key: "ctrl+shift+c",
+		command: "-workbench.action.terminal.openNativeConsole",
+		when: "!terminalFocus",
 	},
 	// Ctrl+W close editor
 	{
-		"key": "ctrl+w",
-		"command": "workbench.action.closeActiveEditor"
+		key: "ctrl+w",
+		command: "workbench.action.closeActiveEditor",
 	},
 	// Ctrl+W close active group when no editor is open
 	{
-		"key": "ctrl+w",
-		"command": "workbench.action.closeGroup",
-		"when": "!editorFocus"
+		key: "ctrl+w",
+		command: "workbench.action.closeGroup",
+		when: "!editorFocus",
 	},
 	// Ctrl+T toggle between terminal and editor
 	{
-		"key": "ctrl+t",
-		"command": "workbench.action.terminal.focus"
+		key: "ctrl+t",
+		command: "workbench.action.terminal.focus",
 	},
 	{
-		"key": "ctrl+t",
-		"command": "workbench.action.focusActiveEditorGroup",
-		"when": "terminalFocus"
+		key: "ctrl+t",
+		command: "workbench.action.focusActiveEditorGroup",
+		when: "terminalFocus",
 	},
 	// Ctrl+Y toggle terminal (open or close)
 	{
-		"key": "ctrl+y",
-		"command": "workbench.action.terminal.toggleTerminal"
+		key: "ctrl+y",
+		command: "workbench.action.terminal.toggleTerminal",
 	},
 	// Ctrl+Shift+. increase editor width
 	{
-		"key": "ctrl+shift+.",
-		"command": "workbench.action.increaseViewSize"
+		key: "ctrl+shift+.",
+		command: "workbench.action.increaseViewSize",
 	},
 	// Ctrl+Shift+, decrease editor width
 	{
-		"key": "ctrl+shift+,",
-		"command": "workbench.action.decreaseViewSize"
+		key: "ctrl+shift+,",
+		command: "workbench.action.decreaseViewSize",
 	},
 	// Ctrl+H focus left group
 	{
-		"key": "ctrl+h",
-		"command": "workbench.action.focusLeftGroup"
+		key: "ctrl+h",
+		command: "workbench.action.focusLeftGroup",
 	},
 	// Ctrl+Shift+H move group into left group
 	{
-		"key": "ctrl+shift+h",
-		"command": "workbench.action.moveEditorToLeftGroup"
+		key: "ctrl+shift+h",
+		command: "workbench.action.moveEditorToLeftGroup",
 	},
 	// Ctrl+L focus right group
 	{
-		"key": "ctrl+l",
-		"command": "workbench.action.focusRightGroup"
+		key: "ctrl+l",
+		command: "workbench.action.focusRightGroup",
 	},
 	// Ctrl+Shift+L move group into right group
 	{
-		"key": "ctrl+shift+l",
-		"command": "workbench.action.moveEditorToRightGroup"
+		key: "ctrl+shift+l",
+		command: "workbench.action.moveEditorToRightGroup",
 	},
 	// Ctrl+J focus below group
 	{
-		"key": "ctrl+j",
-		"command": "workbench.action.focusBelowGroup"
+		key: "ctrl+j",
+		command: "workbench.action.focusBelowGroup",
 	},
 	// Ctrl+Shift+J move group into below group
 	{
-		"key": "ctrl+shift+j",
-		"command": "workbench.action.moveEditorToBelowGroup"
+		key: "ctrl+shift+j",
+		command: "workbench.action.moveEditorToBelowGroup",
 	},
 	// Ctrl+K focus above group
 	{
-		"key": "ctrl+k",
-		"command": "workbench.action.focusAboveGroup"
+		key: "ctrl+k",
+		command: "workbench.action.focusAboveGroup",
 	},
 	// Ctrl+Shift+K move group into above group
 	{
-		"key": "ctrl+shift+k",
-		"command": "workbench.action.moveEditorToAboveGroup"
+		key: "ctrl+shift+k",
+		command: "workbench.action.moveEditorToAboveGroup",
 	},
 	// Ctrl+E toggle focus between editor and explorer
 	{
-		"key": "ctrl+e",
-		"command": "workbench.action.focusSideBar"
+		key: "ctrl+e",
+		command: "workbench.action.focusSideBar",
 	},
 	{
-		"key": "ctrl+e",
-		"command": "workbench.action.focusActiveEditorGroup",
-		"when": "sideBarFocus"
+		key: "ctrl+e",
+		command: "workbench.action.focusActiveEditorGroup",
+		when: "sideBarFocus",
 	},
 	// A key creates new file/folder in explorer
 	{
-		"key": "a",
-		"command": "explorer.newFile",
-		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+		key: "a",
+		command: "explorer.newFile",
+		when: "explorerViewletVisible && filesExplorerFocus && !inputFocus",
 	},
 	// R key renames file/folder in explorer
 	{
-		"key": "r",
-		"command": "renameFile",
-		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+		key: "r",
+		command: "renameFile",
+		when: "explorerViewletVisible && filesExplorerFocus && !inputFocus",
 	},
 	// C key copies file/folder in explorer
 	{
-		"key": "c",
-		"command": "filesExplorer.copy",
-		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+		key: "c",
+		command: "filesExplorer.copy",
+		when: "explorerViewletVisible && filesExplorerFocus && !inputFocus",
 	},
 	// P key pastes file/folder in explorer
 	{
-		"key": "p",
-		"command": "filesExplorer.paste",
-		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+		key: "p",
+		command: "filesExplorer.paste",
+		when: "explorerViewletVisible && filesExplorerFocus && !inputFocus",
 	},
 	// D+Y deletes file/folder in explorer
 	{
-		"key": "d y",
-		"command": "moveFileToTrash",
-		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-	}
+		key: "d y",
+		command: "moveFileToTrash",
+		when: "explorerViewletVisible && filesExplorerFocus && !inputFocus",
+	},
 ]
 ```
 

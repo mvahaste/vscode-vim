@@ -1,0 +1,47 @@
+:root {
+	--blur-size: 25px;
+	--suggest-opacity: 50%;
+	--suggest-padding: 3px;
+	--suggest-radius: 5px;
+}
+
+/* Shadows */
+.part.statusbar {
+	box-shadow: 0px 0px 6px 0px var(--vscode-scrollbar-shadow);
+}
+
+.part.sidebar {
+	box-shadow: 0px 32px 6px 0px var(--vscode-scrollbar-shadow);
+}
+
+/* Editor scrollbar */
+.editor .scrollbar .slider {
+	visibility: hidden;
+}
+
+.editor .scrollbar:hover .slider {
+	visibility: initial;
+}
+
+/* Suggestions */
+.suggest-widget,
+.suggest-details {
+	background-color: rgb(from var(--vscode-editorSuggestWidget-background) r g b / var(--suggest-opacity)) !important;
+	backdrop-filter: blur(var(--blur-size)) !important;
+	border-radius: var(--suggest-radius) !important;
+	padding: var(--suggest-padding) !important;
+}
+
+.suggest-widget .monaco-list-row {
+	border-radius: 3px !important;
+}
+
+/* Command palette */
+.quick-input-widget {
+	background-color: rgb(from var(--vscode-quickInput-background) r g b / var(--suggest-opacity)) !important;
+	backdrop-filter: blur(var(--blur-size)) !important;
+}
+
+.quick-input-widget .monaco-list-rows {
+	background-color: transparent !important;
+}
