@@ -32,3 +32,9 @@ Settings that make using VS Code faster and feel more like Vim, along with some 
 
 -  [Oh My Posh](https://ohmyposh.dev/)
 -  [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json)
+
+## Preview
+
+![1](/preview/1.png)
+![2](/preview/2.png)
+![3](/preview/3.png)

@@ -36,6 +36,13 @@
 	border-radius: 3px !important;
 }
 
+/* Editor hover */
+.monaco-hover {
+	background-color: rgb(from var(--vscode-editorSuggestWidget-background) r g b / var(--suggest-opacity)) !important;
+	backdrop-filter: blur(var(--blur-size)) !important;
+	border-radius: var(--suggest-radius) !important;
+}
+
 /* Command palette */
 .quick-input-widget {
 	background-color: rgb(from var(--vscode-quickInput-background) r g b / var(--suggest-opacity)) !important;
