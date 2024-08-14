@@ -114,6 +114,6 @@
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"editor.guides.indentation": false,
-	"workbench.tree.renderIndentGuides": "none"
-	// "workbench.editor.showTabs": "single",
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.editor.showTabs": "single"
 }
