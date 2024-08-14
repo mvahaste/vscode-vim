@@ -303,7 +303,7 @@ I also recommend installing these:
 ; Run admin terminal with Windows + Shift + Enter
 #+Enter::Run, *runas wt.exe
 
-; Switch desktop with Win+Number
+; Switch desktop with Windows + Number
 #1::switchDesktopByNumber(1)
 #2::switchDesktopByNumber(2)
 #3::switchDesktopByNumber(3)
@@ -314,7 +314,7 @@ I also recommend installing these:
 #8::switchDesktopByNumber(8)
 #9::switchDesktopByNumber(9)
 
-; Move window to specific desktop with Win+Shift+Number
+; Move window to specific desktop with Windows + Shift + Number
 #+1::MoveCurrentWindowToDesktop(1)
 #+2::MoveCurrentWindowToDesktop(2)
 #+3::MoveCurrentWindowToDesktop(3)
