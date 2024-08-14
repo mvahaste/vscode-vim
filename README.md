@@ -23,7 +23,7 @@ Settings that make using VS Code faster and feel more like Vim, along with some 
 -  [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts)
 -  [Insert Unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode)
 
-### Switch between virtual desktops with keyboard shortcuts.
+### Switch between virtual desktops with keyboard shortcuts:
 
 -  [AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe)
 -  [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher)
