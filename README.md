@@ -36,12 +36,9 @@ I also recommend installing these:
 
 ```json5
 {
-	"apc.stylesheet": {
-		".part.statusbar": "box-shadow: 0px 0px 6px 0px var(--vscode-scrollbar-shadow);",
-		".part.sidebar": "box-shadow: 0px 32px 6px 0px var(--vscode-scrollbar-shadow);",
-		".editor .scrollbar .slider": "visibility: hidden;",
-		".editor .scrollbar:hover .slider": "visibility: initial",
-	},
+	"apc.imports": [
+		// CUSTOM.CSS
+	],
 	"apc.font.family": "JetBrainsMono Nerd Font",
 	"apc.header": {
 		height: 30,
