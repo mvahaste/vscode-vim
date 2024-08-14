@@ -1,0 +1,119 @@
+{
+	"apc.imports": [
+		// CUSTOM.CSS
+	],
+	"apc.font.family": "JetBrainsMono Nerd Font",
+	"apc.header": {
+		"height": 30
+	},
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.lightbulb.enabled": "off",
+	"editor.stickyScroll.enabled": false,
+	"editor.linkedEditing": true,
+	"editor.suggest.insertMode": "replace",
+	"editor.lineNumbers": "relative",
+	"editor.cursorSurroundingLines": 10,
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+	"vim.leader": "<space>",
+	"vim.foldfix": true,
+	"vim.hlsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		// Semicolon opens vim command line
+		{
+			"before": [";"],
+			"commands": ["vim.showQuickpickCmdLine"]
+		},
+		// Leader+F+F opens quick open
+		{
+			"before": ["<leader>", "f", "f"],
+			"commands": ["workbench.action.quickOpen"]
+		},
+		// Leader+W to save
+		{
+			"before": ["<leader>", "w"],
+			"commands": [":w"]
+		},
+		// Leader+Q to quit
+		{
+			"before": ["<leader>", "q"],
+			"commands": [":q"]
+		},
+		// Leader+/ to comment/uncomment line
+		{
+			"before": ["<leader>", "/"],
+			"commands": ["editor.action.commentLine"]
+		},
+		// Leader+I to toggle boolean
+		{
+			"before": ["<leader>", "i"],
+			"commands": ["extension.toggleBool"]
+		},
+		// Tab cycles editors in same group
+		{
+			"before": ["<tab>"],
+			"commands": ["workbench.action.nextEditorInGroup"]
+		},
+		{
+			"before": ["<shift+tab>"],
+			"commands": ["workbench.action.previousEditorInGroup"]
+		},
+		// Leader+S to split editor
+		{
+			"before": ["<leader>", "s"],
+			"commands": [":vsp"]
+		},
+		// Leader+D to go to definition
+		{
+			"before": ["<leader>", "d"],
+			"commands": ["editor.action.goToDeclaration"]
+		},
+		// Leader+A to open quick fix
+		{
+			"before": ["<leader>", "a"],
+			"commands": ["editor.action.quickFix"]
+		},
+		// Leader+H to open hover
+		{
+			"before": ["<leader>", "h"],
+			"commands": ["editor.action.showHover"]
+		},
+		// ]+D to go to next diagnostic
+		{
+			"before": ["]", "d"],
+			"commands": ["editor.action.marker.next"]
+		},
+		// [ + D to go to previous diagnostic
+		{
+			"before": ["[", "d"],
+			"commands": ["editor.action.marker.prev"]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		// Leader+/ to comment/uncomment line
+		{
+			"before": ["<leader>", "/"],
+			"commands": ["editor.action.commentLine"]
+		}
+	],
+	"editor.matchBrackets": "never",
+	"workbench.tips.enabled": false,
+	"editor.renderLineHighlight": "none",
+	"editor.copyWithSyntaxHighlighting": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.emptySelectionClipboard": false,
+	"workbench.editor.enablePreview": false,
+	"window.newWindowDimensions": "inherit",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"files.trimTrailingWhitespace": true,
+	"diffEditor.renderSideBySide": false,
+	"editor.snippetSuggestions": "top",
+	"editor.detectIndentation": false,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"editor.guides.indentation": false,
+	"workbench.tree.renderIndentGuides": "none"
+	// "workbench.editor.showTabs": "single",
+}
