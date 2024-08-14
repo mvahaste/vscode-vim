@@ -2,6 +2,8 @@
 
 Settings that make using VS Code faster and feel more like Vim, along with some visual changes and useful extensions.
 
+Should work with any color themes.
+
 ## Dependencies
 
 ### These settings rely on the following:
