@@ -27,3 +27,8 @@ Settings that make using VS Code faster and feel more like Vim, along with some 
 
 -  [AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe)
 -  [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher)
+
+### Terminal prompt:
+
+-  [Oh My Posh](https://ohmyposh.dev/)
+-  [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json)
