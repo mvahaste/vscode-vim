@@ -14,12 +14,6 @@
 		"key": "ctrl+w",
 		"command": "workbench.action.closeActiveEditor"
 	},
-	// Ctrl+W close active group when no editor is open
-	{
-		"key": "ctrl+w",
-		"command": "workbench.action.closeGroup",
-		"when": "!editorFocus"
-	},
 	// Ctrl+T toggle between terminal and editor
 	{
 		"key": "ctrl+t",
