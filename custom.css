@@ -45,3 +45,29 @@
 .quick-input-widget .monaco-list-rows {
 	background-color: transparent !important;
 }
+
+/* Sidebar */
+.part.sidebar .title-actions {
+	display: none !important;
+}
+
+/* Title bar */
+.titlebar .monaco-toolbar {
+	display: none;
+}
+
+/* Custom image and text for title bar */
+/* .titlebar-left {
+	width: fit-content !important;
+} */
+
+.titlebar-left a {
+	background-image: none !important;
+	/* padding-top: 7px;
+	padding-left: 10px;
+	width: fit-content !important; */
+}
+
+/* .titlebar-left a::before {
+	content: "(⁎˃ᆺ˂)";
+} */
