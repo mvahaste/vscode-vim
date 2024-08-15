@@ -118,5 +118,17 @@
 		"key": "d y",
 		"command": "moveFileToTrash",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Ctrl+J expand selection down in explorer
+	{
+		"key": "ctrl+j",
+		"command": "list.expandSelectionDown",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Ctrl+K expand selection up in explorer
+	{
+		"key": "ctrl+k",
+		"command": "list.expandSelectionUp",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	}
 ]
