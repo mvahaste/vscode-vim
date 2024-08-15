@@ -53,13 +53,15 @@
 	background-color: transparent !important;
 }
 
-/* Hide the sidebar and editor title bar actions by default */
+/* Hide the sidebar, tab bar, and title bar actions by default */
+.part.titlebar .monaco-action-bar,
 .part.sidebar .title-actions,
 .editor-group-container .title-actions {
 	opacity: 0 !important;
 }
 
-/* Show the sidebar and editor title bar actions on hover */
+/* Show the sidebar, tab bar, and title bar actions on hover */
+.part.titlebar .monaco-action-bar:hover,
 .part.sidebar .title-actions:hover,
 .editor-group-container .title-actions:hover {
 	opacity: 1 !important;
