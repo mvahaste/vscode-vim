@@ -2,7 +2,7 @@
 
 Settings that make using VS Code faster and feel more like Vim, along with some visual changes and useful extensions.
 
-Should work with any color theme.
+The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
 
 ## Dependencies
 
@@ -37,6 +37,17 @@ Should work with any color theme.
 
 ## Preview
 
-![1](/preview/1.png)
-![2](/preview/2.png)
-![3](/preview/3.png)
+### Gruvbox Material Dark
+
+![Gruvbox Material Dark 1](/preview/gruvbox-material-dark-1.png)
+![Gruvbox Material Dark 2](/preview/gruvbox-material-dark-2.png)
+
+### One Dark Pro Darker
+
+![One Dark Pro Darker 1](/preview/one-dark-pro-darker-1.png)
+![One Dark Pro Darker 2](/preview/one-dark-pro-darker-2.png)
+
+### Github Dark Dimmed
+
+![Github Dark Dimmed 1](/preview/github-dark-dimmed-1.png)
+![Github Dark Dimmed 2](/preview/github-dark-dimmed-2.png)
