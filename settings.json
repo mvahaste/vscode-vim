@@ -1,11 +1,10 @@
 {
 	"apc.imports": [
-		// CUSTOM.CSS
+		// Path to custom.css
 	],
 	"apc.font.family": "JetBrainsMono Nerd Font",
-	"apc.header": {
-		"height": 30
-	},
+	"window.openWithoutArgumentsInNewWindow": "on",
+	"window.restoreWindows": "none",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"editor.lightbulb.enabled": "off",
@@ -19,6 +18,7 @@
 	"vim.leader": "<space>",
 	"vim.foldfix": true,
 	"vim.hlsearch": true,
+	"vim.smartRelativeLine": true,
 	"vim.useSystemClipboard": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		// Semicolon opens vim command line
@@ -115,5 +115,6 @@
 	"files.trimFinalNewlines": true,
 	"editor.guides.indentation": false,
 	"workbench.tree.renderIndentGuides": "none",
-	"workbench.editor.showTabs": "single"
+	"workbench.editor.showTabs": "single",
+	"window.density.editorTabHeight": "compact"
 }
