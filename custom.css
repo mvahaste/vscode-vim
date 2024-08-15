@@ -53,11 +53,6 @@
 	display: none !important;
 }
 
-/* Hide the title bar buttons (toggle side bar, customize view, etc.) */
-.titlebar .monaco-toolbar {
-	display: none;
-}
-
 /* Remove VS Code icon from the title bar */
 .titlebar-left a {
 	background-image: none !important;
