@@ -2,7 +2,7 @@
 
 Settings that make using VS Code faster and feel more like Vim, along with some visual changes and useful extensions.
 
-Should work with any color theme.
+The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
 
 ## Dependencies
 
