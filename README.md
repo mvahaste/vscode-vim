@@ -1,8 +1,23 @@
 # Make VS Code on Windows feel more like Vim
 
-Settings that make using VS Code faster and feel more like Vim, along with some visual changes and useful extensions.
+Extensions and settings that make using VS Code faster and feel more like Vim, along with some visual changes.
 
 The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
+
+## Features
+
+-  Edit files, switch tabs and groups, toggle integrated terminal, navigate, create, rename, and delete files, etc. with keyboard shortcuts.
+-  Maximize screen space by hiding many of the non-essential UI elements.
+-  Cool (😎) background blur on different widgets.
+-  And more QoL improvements.
+
+## Installation
+
+1. Install the extensions listed below (also the font if you want to use the same one, but it can be easily changed).
+2. Copy the contents of `settings.json` to your VS Code `settings.json`.
+3. Copy the contents of `keybindings.json` to your VS Code `keybindings.json`.
+4. Add the path to the `custom.css` file into your `settings.json`.
+5. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
 
 ## Dependencies
 
