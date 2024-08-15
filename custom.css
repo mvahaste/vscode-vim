@@ -1,9 +1,14 @@
 :root {
 	--blur-size: 25px;
-	--widget-background-opacity: 15%;
-	--widget-shadow-opacity: 10%;
+	--widget-background-opacity: 0.75;
+	--widget-shadow-opacity: 0.1;
 	--suggest-padding: 5px;
 	--suggest-radius: 10px;
+}
+
+/* Remove the editor title bar shadow that appears when scrolling */
+.monaco-editor .scroll-decoration {
+	box-shadow: none !important;
 }
 
 /* Hide the scrollbar by default */
@@ -48,9 +53,16 @@
 	background-color: transparent !important;
 }
 
-/* Hide the sidebar buttons (create file/folder for explorer, filters/sorting for extensions, etc.) */
-.part.sidebar .title-actions {
-	display: none !important;
+/* Hide the sidebar and editor title bar actions by default */
+.part.sidebar .title-actions,
+.editor-group-container .title-actions {
+	opacity: 0 !important;
+}
+
+/* Show the sidebar and editor title bar actions on hover */
+.part.sidebar .title-actions:hover,
+.editor-group-container .title-actions:hover {
+	opacity: 1 !important;
 }
 
 /* Remove VS Code icon from the title bar */
