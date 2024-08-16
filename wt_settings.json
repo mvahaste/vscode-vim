@@ -1,0 +1,36 @@
+{
+	"profiles": {
+		"defaults": {
+			"font": {
+				"face": "JetBrainsMono Nerd Font"
+			},
+			"colorScheme": "Vesper",
+			"tabColor": "#101010"
+		}
+	},
+	"schemes": [
+		{
+			"name": "Vesper",
+			"background": "#101010",
+			"black": "#000000",
+			"blue": "#2472C8",
+			"brightBlack": "#666666",
+			"brightBlue": "#3B8EEA",
+			"brightCyan": "#29B8DB",
+			"brightGreen": "#23D18B",
+			"brightPurple": "#D670D6",
+			"brightRed": "#F14C4C",
+			"brightWhite": "#E5E5E5",
+			"brightYellow": "#F5F543",
+			"cursorColor": "#AEAFAD",
+			"cyan": "#11A8CD",
+			"foreground": "#CCCCCC",
+			"green": "#0DBC79",
+			"purple": "#BC3FBC",
+			"red": "#CD3131",
+			"selectionBackground": "#FFFFFF",
+			"white": "#E5E5E5",
+			"yellow": "#E5E510"
+		}
+	]
+}

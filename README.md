@@ -54,7 +54,8 @@ To get my exact setup also use:
 ### Terminal prompt:
 
 -  [Oh My Posh](https://ohmyposh.dev/) for the prompt.
--  [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the theme.
+-  [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.
+-  [Vesper](/wt_settings.json) for the color scheme (created from the VS Code color theme).
 
 ## Preview
 
