@@ -4,6 +4,8 @@ Extensions and settings that make using VS Code faster and feel more like Vim, a
 
 The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
 
+I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, Firefox theme, etc.)
+
 ## Features
 
 -  Edit files, switch tabs and groups, toggle integrated terminal, navigate, create, rename, and delete files, etc. with keyboard shortcuts.
