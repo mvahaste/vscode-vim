@@ -7,6 +7,9 @@
 ; Run admin terminal with Windows + Shift + Enter
 #+Enter::Run, *runas wt.exe
 
+; Run Firefox with Windows + B
+#b::Run, firefox.exe
+
 ; Switch desktop with Windows + Number
 #1::switchDesktopByNumber(1)
 #2::switchDesktopByNumber(2)
