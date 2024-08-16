@@ -61,7 +61,7 @@ To get my exact setup also use:
 ### Firefox theme:
 
 -  [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) for using the theme.
--  [Vesper](https://color.firefox.com/?theme=XQAAAALmAQAAAAAAAABBKYhm849SCicxcT_m3XcGHf3p79EhVPVdQf7xcfZ9PTtZXOCodCzcptf_KvQq1gcisAhFTtwwGpk7crCHzaRi488HBNPECKBR3kPb4au57-jeu9vPdwejBXG2hEDjN8UABbeXSG_FEMHHazWYoMk3IA_fc30xS_Zk7h69vjxLCxEZNLQ--0r50FX9QZslmjDFn_mr8kgUxWlGnlcRWMottumYZCMZKsLnKyovRFLWAuctzV2CGMFLbL9_GTaXs_qeAaVJJanOFIVw-5wQTBYv_SUFBUR2OdyKrl3S8YeQrW3trkTHuUg9G7jI_4WoyXQ) for the theme (not actually Vesper, just made it similar).
+-  [Vesper](https://color.firefox.com/?theme=XQAAAALmAQAAAAAAAABBKYhm849SCicxcT_m3XcGHf3p79EhVPVdQf7xcfZ9PTtZXOCodCzcptf_KvQq1gcisAhFTtwwGpk7crCHzaRi488HBNPECKBR3kPd_bFCHuLt3mnVEyTaBiOKjsZiay5oi-dFS5b5uiSa7DXtuxeEJjOpGV4V620WVWZtiklu9Wk8XlCXZzPIbjVFl2ObqLOYO_wwoLAXiNzyslM6MBe4Vx8o4bsVq58EaF2p9nhl4P3nj61ACKDu1JzG03OxiEtgfqgFf6pKwuPgyIFi6iYuPz2usMTEsg7VCTQnMs8kXLxetOr5q__utd9q) for the theme (not actually Vesper, just made it similar).
 
 ## Preview
 
