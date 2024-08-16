@@ -42,10 +42,18 @@
 	border-radius: calc(var(--suggest-radius) * 0.4) !important;
 }
 
-/* Background opacity and blur for command palette/quick input */
+/* Background opacity and blur for notifications and command palette/quick input */
+.notification-toast,
 .quick-input-widget {
 	background-color: rgb(from var(--vscode-quickInput-background) r g b / var(--widget-background-opacity)) !important;
 	backdrop-filter: blur(var(--blur-size)) !important;
+}
+
+/* Make notification containers' backgrounds transparent to allow for blur effect */
+.notification-toast,
+.monaco-workbench .notifications-list-container,
+.notifications-toasts.visible .monaco-list .monaco-list-rows {
+	background-color: transparent !important;
 }
 
 /* Make command palette/quick input results' backgrounds transparent */

@@ -1,25 +1,65 @@
 {
-	"apc.imports": [
-		// Path to custom.css
-	],
-	"apc.font.family": "JetBrainsMono Nerd Font",
+	// Set color theme
+	"workbench.colorTheme": "Vesper",
+	// Set icon themes
+	"workbench.iconTheme": "symbols",
+	"workbench.productIconTheme": "fluent-icons",
+	// Set font
+	"editor.fontFamily": "JetBrainsMono Nerd Font",
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"debug.console.fontFamily": "JetBrainsMono Nerd Font",
+	// Tweak Vesper theme to my liking
+	"workbench.colorCustomizations": {
+		"[Vesper]": {
+			"statusBar.noFolderBackground": "#101010", // Default is #68217a, which doesn't fit the theme
+			"menu.background": "#171717", // Default is #3c3c3c, but I like it darker
+			"menu.separatorBackground": "#202020" // Default is #606060, but I like it darker
+		}
+	},
+	// Show current file path in status bar, since I don't use breadcrumbs or tabs
+	"filePathBar.statusBarAlignment": "right",
+	"filePathBar.pathStyle": "relative",
+	// Open VS Code without workspace
 	"window.openWithoutArgumentsInNewWindow": "on",
 	"window.restoreWindows": "none",
+	// Override UI font
+	"apc.font.family": "JetBrainsMono Nerd Font",
+	// Import custom CSS
+	"apc.imports": ["/C:/Users/Mikk/Dev/vscode-vim/custom.css"],
+	// Disable explorer action confirmation windows for keyboard-only use
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	// Disable visual clutter
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+	"symbols.hidesExplorerArrows": true,
+	"breadcrumbs.enabled": false,
 	"editor.lightbulb.enabled": "off",
 	"editor.stickyScroll.enabled": false,
 	"editor.linkedEditing": true,
 	"editor.suggest.insertMode": "replace",
 	"editor.lineNumbers": "relative",
-	"editor.cursorSurroundingLines": 10,
 	"editor.minimap.enabled": false,
-	"breadcrumbs.enabled": false,
+	"editor.matchBrackets": "never",
+	"editor.renderLineHighlight": "none",
+	"editor.guides.indentation": false,
+	"workbench.sideBar.location": "right",
+	"workbench.tips.enabled": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.editor.showTabs": "none",
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.location": "hidden",
+	// Keep at least 10 lines above and below cursor for context
+	"editor.cursorSurroundingLines": 10,
+	// Vim settings
 	"vim.leader": "<space>",
+	// Allow going over folded lines without opening them
 	"vim.foldfix": true,
 	"vim.hlsearch": true,
-	"vim.smartRelativeLine": true,
+	// Nicer copy-paste behavior
 	"vim.useSystemClipboard": true,
+	"editor.copyWithSyntaxHighlighting": false,
+	"vim.smartRelativeLine": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
 		// Semicolon opens vim command line
 		{
@@ -98,23 +138,14 @@
 			"commands": ["editor.action.commentLine"]
 		}
 	],
-	"editor.matchBrackets": "never",
-	"workbench.tips.enabled": false,
-	"editor.renderLineHighlight": "none",
-	"editor.copyWithSyntaxHighlighting": false,
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.emptySelectionClipboard": false,
 	"workbench.editor.enablePreview": false,
-	"window.newWindowDimensions": "inherit",
 	"editor.multiCursorModifier": "ctrlCmd",
 	"files.trimTrailingWhitespace": true,
 	"diffEditor.renderSideBySide": false,
 	"editor.snippetSuggestions": "top",
 	"editor.detectIndentation": false,
 	"files.insertFinalNewline": true,
-	"files.trimFinalNewlines": true,
-	"editor.guides.indentation": false,
-	"workbench.tree.renderIndentGuides": "none",
-	"workbench.editor.showTabs": "none",
-	"window.density.editorTabHeight": "compact"
+	"files.trimFinalNewlines": true
 }
