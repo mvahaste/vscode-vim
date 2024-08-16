@@ -33,6 +33,7 @@ To get my exact setup also use:
 -  [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) for the color theme.
 -  [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for file icons.
 -  [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
+-  [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.
 
 ### Some good extensions to have:
 
