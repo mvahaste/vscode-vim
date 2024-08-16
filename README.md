@@ -58,6 +58,11 @@ To get my exact setup also use:
 -  [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.
 -  [Vesper](/wt_settings.json) for the color scheme (created from the VS Code color theme).
 
+### Firefox theme:
+
+-  [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) for using the theme.
+-  [Vesper](https://color.firefox.com/?theme=XQAAAALmAQAAAAAAAABBKYhm849SCicxcT_m3XcGHf3p79EhVPVdQf7xcfZ9PTtZXOCodCzcptf_KvQq1gcisAhFTtwwGpk7crCHzaRi488HBNPECKBR3kPb4au57-jeu9vPdwejBXG2hEDjN8UABbeXSG_FEMHHazWYoMk3IA_fc30xS_Zk7h69vjxLCxEZNLQ--0r50FX9QZslmjDFn_mr8kgUxWlGnlcRWMottumYZCMZKsLnKyovRFLWAuctzV2CGMFLbL9_GTaXs_qeAaVJJanOFIVw-5wQTBYv_SUFBUR2OdyKrl3S8YeQrW3trkTHuUg9G7jI_4WoyXQ) for the theme (not actually Vesper, just made it similar).
+
 ## Preview
 
 ![vesper-1](/preview/vesper-1.png)
