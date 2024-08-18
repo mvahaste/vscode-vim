@@ -61,11 +61,11 @@
 	"editor.copyWithSyntaxHighlighting": false,
 	"vim.smartRelativeLine": true,
 	"vim.normalModeKeyBindingsNonRecursive": [
-		// Semicolon opens vim command line
-		{
-			"before": [";"],
-			"commands": ["vim.showQuickpickCmdLine"]
-		},
+		// Semicolon opens vim command line, disabled by default to allow for repeating commands
+		// {
+		// 	"before": [";"],
+		// 	"commands": ["vim.showQuickpickCmdLine"]
+		// },
 		// Leader+F+F opens quick open
 		{
 			"before": ["<leader>", "f", "f"],
