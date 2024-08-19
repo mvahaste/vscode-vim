@@ -61,16 +61,29 @@
 	background-color: transparent !important;
 }
 
+/* Hide the side bar title by default, show on hover */
+.part.sidebar:not(:hover) .composite.title {
+	height: 0px !important;
+	opacity: 0 !important;
+}
+
+/* Give the side bar title a transition so it doesn't just pop in */
+.part.sidebar .composite.title {
+	transition: all 0.1s ease-in-out !important;
+}
+
 /* Hide the sidebar, tab bar, and title bar actions by default */
+/* Uncomment this if you want the same behavior for the side bar */
+/* .part.sidebar .title-actions, */
 .part.titlebar .monaco-action-bar,
-.part.sidebar .title-actions,
 .editor-group-container .title-actions {
 	opacity: 0 !important;
 }
 
 /* Show the sidebar, tab bar, and title bar actions on hover */
+/* Uncomment this if you want the same behavior for the side bar */
+/* .part.sidebar .title-actions:hover, */
 .part.titlebar .monaco-action-bar:hover,
-.part.sidebar .title-actions:hover,
 .editor-group-container .title-actions:hover {
 	opacity: 1 !important;
 }
@@ -78,7 +91,7 @@
 /* Remove VS Code icon from the title bar */
 .titlebar-left a {
 	display: none !important;
-	/* Uncomment and tweak this if you want custom text/content in your title bar instead of the VS Code icon*/
+	/* Uncomment (^ and comment this) and tweak this if you want custom text/content in your title bar instead of the VS Code icon*/
 	/* background-image: url("") !important;
     padding-top: 7px;
 	padding-left: 10px;
