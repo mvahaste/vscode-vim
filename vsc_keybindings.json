@@ -1,0 +1,155 @@
+[
+	{
+		"key": "ctrl+shift+c",
+		"command": "-workbench.action.terminal.copySelection",
+		"when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "-workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	},
+	// Ctrl+W close editor
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.closeActiveEditor"
+	},
+	// Ctrl+T toggle between terminal and editor
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	// Ctrl+Y toggle terminal (open or close)
+	{
+		"key": "ctrl+y",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	// Ctrl+Shift+. increase editor width
+	{
+		"key": "ctrl+shift+.",
+		"command": "workbench.action.increaseViewSize"
+	},
+	// Ctrl+Shift+, decrease editor width
+	{
+		"key": "ctrl+shift+,",
+		"command": "workbench.action.decreaseViewSize"
+	},
+	// Ctrl+H focus left group
+	{
+		"key": "ctrl+h",
+		"command": "workbench.action.focusLeftGroup"
+	},
+	// Ctrl+Shift+H move group into left group
+	{
+		"key": "ctrl+shift+h",
+		"command": "workbench.action.moveEditorToLeftGroup"
+	},
+	// Ctrl+L focus right group
+	{
+		"key": "ctrl+l",
+		"command": "workbench.action.focusRightGroup"
+	},
+	// Ctrl+Shift+L move group into right group
+	{
+		"key": "ctrl+shift+l",
+		"command": "workbench.action.moveEditorToRightGroup"
+	},
+	// Ctrl+J focus below group
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.focusBelowGroup"
+	},
+	// Ctrl+Shift+J move group into below group
+	{
+		"key": "ctrl+shift+j",
+		"command": "workbench.action.moveEditorToBelowGroup"
+	},
+	// Ctrl+K focus above group
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.focusAboveGroup"
+	},
+	// Ctrl+Shift+K move group into above group
+	{
+		"key": "ctrl+shift+k",
+		"command": "workbench.action.moveEditorToAboveGroup"
+	},
+	// Ctrl+E toggle focus between editor and explorer
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.focusSideBar"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "sideBarFocus"
+	},
+	// A key creates new file/folder in explorer
+	{
+		"key": "a",
+		"command": "explorer.newFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// R key renames file/folder in explorer
+	{
+		"key": "r",
+		"command": "renameFile",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Y key copies file/folder in explorer
+	{
+		"key": "y",
+		"command": "filesExplorer.copy",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// P key pastes file/folder in explorer
+	{
+		"key": "p",
+		"command": "filesExplorer.paste",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// D+Y deletes file/folder in explorer
+	{
+		"key": "d y",
+		"command": "moveFileToTrash",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Ctrl+J expand selection down in explorer
+	{
+		"key": "ctrl+j",
+		"command": "list.expandSelectionDown",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Ctrl+K expand selection up in explorer
+	{
+		"key": "ctrl+k",
+		"command": "list.expandSelectionUp",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// Move through single-line nested folders with H, L
+	{
+		"key": "l",
+		"command": "list.expand",
+		"when": "listFocus && treeElementCanExpand && !inputFocus && !treestickyScrollFocused || listFocus && treeElementHasChild && !inputFocus && !treestickyScrollFocused"
+	},
+	{
+		"key": "l",
+		"command": "nextCompressedFolder",
+		"when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedLastFocus && !inputFocus"
+	},
+	{
+		"key": "h",
+		"command": "list.collapse",
+		"when": "listFocus && treeElementCanCollapse && !inputFocus && !treestickyScrollFocused || listFocus && treeElementHasChild && !inputFocus && !treestickyScrollFocused"
+	},
+	{
+		"key": "h",
+		"command": "previousCompressedFolder",
+		"when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedFirstFocus && !inputFocus"
+	}
+]
