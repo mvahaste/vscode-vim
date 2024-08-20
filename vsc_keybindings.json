@@ -151,5 +151,11 @@
 		"key": "h",
 		"command": "previousCompressedFolder",
 		"when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedFirstFocus && !inputFocus"
+	},
+	// Open file with Space and focus on editor (preserves focus on exlorer by default)
+	{
+		"key": "space",
+		"command": "explorer.openAndPassFocus",
+		"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
 	}
 ]
