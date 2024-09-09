@@ -96,6 +96,7 @@ A minimal dark color theme for the browser.
 
 ## Preview
 
-![vesper-1](/preview/vesper-1.png)
-![vesper-2](/preview/vesper-2.png)
-![vesper-3](/preview/vesper-3.png)
+![VS Code Preview Image 1](/preview/vscode-1.jpg)
+![VS Code Preview Image 2](/preview/vscode-2.jpg)
+![VS Code Preview Image 3](/preview/vscode-3.jpg)
+![Windows Terminal Preview Image 1](/preview/wt-1.jpg)
