@@ -6,6 +6,13 @@ The CSS (`custom.css`) should work with any color theme, but can be easily modif
 
 I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, Firefox theme, etc.)
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Preview](#preview)
+
 ## Features
 
 -  Edit files, switch tabs and groups, toggle integrated terminal, navigate, create, rename, and delete files, etc. with keyboard shortcuts.
