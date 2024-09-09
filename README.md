@@ -29,10 +29,11 @@ I also use this repo to back up some configs for myself, so not everything here 
 ## Installation
 
 1. Install the extensions listed below (also the font if you want to use the same one, but it can be easily changed).
-2. Copy the contents of `settings.json` to your VS Code `settings.json`.
-3. Copy the contents of `keybindings.json` to your VS Code `keybindings.json`.
+2. Copy the contents of `vsc_settings.json` into your VS Code `settings.json`.
+3. Copy the contents of `vsc_keybindings.json` into your VS Code `keybindings.json`.
 4. Add the path to the `custom.css` file into your `settings.json`.
-5. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
+5. If you want the Vesper theme for Windows Terminal, copy the contents of `wt_settings.json` into your Windows Terminal `settings.json`
+6. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
 
 ## Dependencies
 
