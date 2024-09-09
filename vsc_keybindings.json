@@ -12,7 +12,8 @@
 	// Ctrl+W close editor
 	{
 		"key": "ctrl+w",
-		"command": "workbench.action.closeActiveEditor"
+		"command": "workbench.action.closeActiveEditor",
+		"when": "editorFocus"
 	},
 	// Ctrl+T toggle between terminal and editor
 	{
@@ -105,6 +106,12 @@
 	{
 		"key": "y",
 		"command": "filesExplorer.copy",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+	},
+	// M key moves (cuts) file/folder in explorer
+	{
+		"key": "m",
+		"command": "filesExplorer.cut",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	},
 	// P key pastes file/folder in explorer
