@@ -7,10 +7,16 @@ The CSS (`custom.css`) should work with any color theme, but can be easily modif
 I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, Firefox theme, etc.)
 
 ## Table of Contents
-
 - [Features](#features)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
+  * [Required](#required)
+  * [Recommended](#recommended)
+  * [General](#general)
+    + [Extensions](#extensions)
+    + [Windows](#windows)
+    + [Terminal](#terminal)
+    + [Firefox](#firefox)
 - [Preview](#preview)
 
 ## Features
@@ -48,7 +54,9 @@ Recommended to get my look.
 -  [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
 -  [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.
 
-### General extensions
+### General
+
+#### Extensions
 
 Good extensions for any setup.
 
