@@ -67,6 +67,11 @@
 	opacity: 0 !important;
 }
 
+/* Remove black space left by hiding the side bar title */
+.split-view-view .visible {
+	background-color: var(--vscode-sideBar-background) !important;
+}
+
 /* Give the side bar title a transition so it doesn't just pop in */
 .part.sidebar .composite.title {
 	transition: all 0.1s ease-in-out !important;
