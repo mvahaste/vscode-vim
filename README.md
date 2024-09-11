@@ -4,7 +4,7 @@ Extensions and settings that make using VS Code faster and feel more like Vim, a
 
 The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
 
-I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, Firefox theme, etc.)
+I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, browser settings, etc.)
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ I also use this repo to back up some configs for myself, so not everything here 
         -   [Extensions](#extensions)
         -   [Windows](#windows)
         -   [Terminal and Bash](#terminal-and-bash)
-        -   [Firefox](#firefox)
+        -   [Zen Browser](#zen-browser)
 -   [Preview](#preview)
 
 ## Features
@@ -52,7 +52,9 @@ Required as the base for this setup.
 
 Recommended to get my look.
 
--   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) for the color theme.
+-   Color themes (I switch between these two):
+    -   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) (used in the screenshots).
+    -   [Noir Essence](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark).
 -   [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for file icons.
 -   [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
 -   [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.
@@ -70,7 +72,6 @@ Good extensions for any setup.
 -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) for autocompleting paths.
 -   [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar) to move the activity bar to the status bar (I have it hidden, but it's still nice to have).
 -   [Lorem ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum) for generating placeholder text.
--   [Google Fonts](https://marketplace.visualstudio.com/items?itemName=lior-chamla.google-fonts) to easily import Google Fonts.
 -   [Insert Unicode](https://marketplace.visualstudio.com/items?itemName=brunnerh.insert-unicode) for searching and inserting Unicode characters.
 
 #### Windows
@@ -91,12 +92,15 @@ A fancier Windows terminal experience.
 -   [j](/bash.bashrc) for easily compiling and running Java files (custom bash function).
 -   [lazygit](/bash.bashrc) for lazy git add, commit, and push.
 
-#### Firefox
+#### Zen Browser
 
-A minimal dark color theme for the browser.
+A modern, feature-rich, privacy focused browser based on Firefox.
 
--   [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) for using the theme.
--   [Vesper](https://color.firefox.com/?theme=XQAAAALmAQAAAAAAAABBKYhm849SCicxcT_m3XcGHf3p79EhVPVdQf7xcfZ9PTtZXOCodCzcptf_KvQq1gcisAhFTtwwGpk7crCHzaRi488HBNPECKBR3kPd_bFCHuLt3mnVEyTaBiOKjsZiay5oi-dFS5b5uiSa7DXtuxeEJjOpGV4V620WVWZtiklu9Wk8XlCXZzPIbjVFl2ObqLOYO_wwoLAXiNzyslM6MBe4Vx8o4bsVq58EaF2p9nhl4P3nj61ACKDu1JzG03OxiEtgfqgFf6pKwuPgyIFi6iYuPz2usMTEsg7VCTQnMs8kXLxetOr5q__utd9q) for the theme (not actually Vesper, just made it look similar).
+-   [Zen Browser](https://zen-browser.app/) for the browser.
+-   [Hide Window Buttons](https://zen-browser.app/themes/5a007026-0801-4a5d-9740-f17dc1c3ff21) to hide all window controls.
+-   [Cleaner Extension Menu](https://zen-browser.app/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0) to clean up the extensions menu.
+-   [Now Playing Indicator](https://zen-browser.app/themes/2e3369c7-e450-46ba-8794-75ccb0de5e48) for a better now playing indicator in the sidebar.
+-   [Vesper Dark](https://zen-browser.app/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc) for the color theme.
 
 ## Preview
 
