@@ -3,7 +3,7 @@ function j() {
     # If no arguments are given, print explanation
     if [ $# -eq 0 ]; then
         echo "Compile and run Java file with optional arguments. Don't include the extension in the file name."
-        echo "Usage: j <filename without extension> <arguments>"
+        echo "Usage: j <filename> <arguments>"
         return
     fi
 
