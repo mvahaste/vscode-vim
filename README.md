@@ -98,7 +98,7 @@ A modern, feature-rich, privacy focused browser based on Firefox.
 
 -   [Zen Browser](https://zen-browser.app/) for the browser.
 -   [Hide Window Buttons](https://zen-browser.app/themes/5a007026-0801-4a5d-9740-f17dc1c3ff21) to hide all window controls.
--   [Cleaner Extension Menu](https://zen-browser.app/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0) to clean up the add-ons menu.
+-   [Cleaner Extension Menu](https://zen-browser.app/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0) to clean up the extensions menu.
 -   [Now Playing Indicator](https://zen-browser.app/themes/2e3369c7-e450-46ba-8794-75ccb0de5e48) for a better now playing indicator in the sidebar.
 -   [Vesper Dark](https://zen-browser.app/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc) for the color theme.
 
