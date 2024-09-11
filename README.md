@@ -16,7 +16,7 @@ I also use this repo to back up some configs for myself, so not everything here 
     -   [General](#general)
         -   [Extensions](#extensions)
         -   [Windows](#windows)
-        -   [Terminal](#terminal)
+        -   [Terminal and Bash](#terminal-and-bash)
         -   [Firefox](#firefox)
 -   [Preview](#preview)
 
@@ -34,7 +34,8 @@ I also use this repo to back up some configs for myself, so not everything here 
 3. Copy the contents of `vsc_keybindings.json` into your VS Code `keybindings.json`.
 4. Add the path to the `custom.css` file into your `settings.json`.
 5. If you want the Vesper theme for Windows Terminal, copy the contents of `wt_settings.json` into your Windows Terminal `settings.json`
-6. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
+6. If you want my bash settings, copy and append the contents of `bash.bashrc` into your `.bashrc`/`bash.bashrc`.
+7. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
 
 ## Dependencies
 
@@ -79,13 +80,16 @@ Easier switching between virtual desktops in windows along with keyboard shortcu
 -   [AutoHotkey v1.1](https://autohotkey.com/download/1.1/AutoHotkey_1.1.37.02_setup.exe) for running the script.
 -   [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher) for switching between virtual desktops.
 
-#### Terminal
+#### Terminal and Bash
 
 A fancier Windows terminal experience.
 
--   [Oh My Posh](https://ohmyposh.dev/) for the prompt.
--   [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.
 -   [Vesper](/wt_settings.json) for the color scheme (created from the VS Code color theme).
+-   [Oh My Posh](https://ohmyposh.dev/) for the terminal prompt.
+-   [zoxide](https://github.com/ajeetdsouza/zoxide) for a smarter cd command.
+-   [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.
+-   [j](/bash.bashrc) for easily compiling and running Java files (custom bash function).
+-   [lazygit](/bash.bashrc) for lazy git add, commit, and push.
 
 #### Firefox
 
