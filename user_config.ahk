@@ -7,10 +7,19 @@
 ; Run admin terminal with Windows + Shift + Enter
 #+Enter::Run, *runas wt.exe
 
-; Run Firefox with Windows + B
-#b::Run, firefox.exe
+; Focus or run Zen Browser with Windows + B
+#b::
+    if WinExist("ahk_exe zen.exe")
+    {
+        WinActivate
+    }
+    else
+    {
+        Run, zen.exe
+    }
 
-; Switch desktop with Windows + Number
+; Switch between virtual desktops with Windows + [1-9]
+
 #1::switchDesktopByNumber(1)
 #2::switchDesktopByNumber(2)
 #3::switchDesktopByNumber(3)
@@ -21,7 +30,8 @@
 #8::switchDesktopByNumber(8)
 #9::switchDesktopByNumber(9)
 
-; Move window to specific desktop with Windows + Shift + Number
+; Move current window to virtual desktop with Windows + Shift + [1-9]
+
 #+1::MoveCurrentWindowToDesktop(1)
 #+2::MoveCurrentWindowToDesktop(2)
 #+3::MoveCurrentWindowToDesktop(3)
