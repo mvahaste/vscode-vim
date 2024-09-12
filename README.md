@@ -98,8 +98,12 @@ A modern, feature-rich, privacy focused browser based on Firefox.
 
 -   [Zen Browser](https://zen-browser.app/) for the browser.
 -   [Hide Window Buttons](https://zen-browser.app/themes/5a007026-0801-4a5d-9740-f17dc1c3ff21) to hide all window controls.
--   [Cleaner Extension Menu](https://zen-browser.app/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0) to clean up the extensions menu.
+-   [Remove Browser Padding](https://zen-browser.app/themes/680424a8-a818-406b-98c5-7726214e2a9f) to remove the extra padding on the website panel.
+-   [Drop Shadow](https://zen-browser.app/themes/abc2d6d8-ea9c-4313-a99c-fb1e76e8b3e5) for a subtle drop shadow for the website panel.
+-   [Bookmark Toolbar Tweaks](https://zen-browser.app/themes/ea1a5ace-f698-4b45-ab88-6e8bd3a563f0) to center the bookmarks.
 -   [Now Playing Indicator](https://zen-browser.app/themes/2e3369c7-e450-46ba-8794-75ccb0de5e48) for a better now playing indicator in the sidebar.
+-   [Cleaner Extension Menu](https://zen-browser.app/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0) to clean up the extensions menu.
+-   [Floating URLbar](https://zen-browser.app/themes/83a641f7-eca9-4c0f-91af-45627bef0539) for a fancy floating URL bar when focused.
 -   [Vesper Dark](https://zen-browser.app/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc) for the color theme.
 
 ## Preview
