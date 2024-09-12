@@ -90,6 +90,12 @@
 		"command": "workbench.action.focusActiveEditorGroup",
 		"when": "sideBarFocus"
 	},
+	// Ctrl+E in terminal focuses on editor (allows to focus on explorer with Ctrl+E+E)
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
 	// A key creates new file/folder in explorer
 	{
 		"key": "a",
