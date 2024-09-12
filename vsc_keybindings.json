@@ -176,5 +176,11 @@
 		"key": "escape",
 		"command": "workbench.action.focusActiveEditorGroup",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus || terminalFocus"
+	},
+	// Tab in quick input/command palette focuses next result
+	{
+		"key": "tab",
+		"command": "workbench.action.quickOpenSelectNext",
+		"when": "inQuickOpen"
 	}
 ]

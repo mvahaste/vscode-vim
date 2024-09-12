@@ -89,8 +89,8 @@ A fancier Windows terminal experience.
 -   [Oh My Posh](https://ohmyposh.dev/) for the terminal prompt.
 -   [zoxide](https://github.com/ajeetdsouza/zoxide) for a smarter cd command.
 -   [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.
--   [j](/bash.bashrc) for easily compiling and running Java files (custom bash function).
--   [lazygit](/bash.bashrc) for lazy git add, commit, and push.
+-   [jcr](/bash.bashrc) for easily compiling and running Java files (`jcr <filename> <arguments>`).
+-   [lazygit](/bash.bashrc) for lazy git add, commit, and push (`lazygit <message>`).
 
 #### Zen Browser
 
