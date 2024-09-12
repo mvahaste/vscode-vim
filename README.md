@@ -54,7 +54,7 @@ Recommended to get my look.
 
 -   Color themes (I switch between these two):
     -   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) (used in the screenshots).
-    -   [Noir Essence](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark).
+    -   [Noir Essence Dark](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark).
 -   [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for file icons.
 -   [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
 -   [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.

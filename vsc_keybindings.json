@@ -164,5 +164,11 @@
 		"key": "space",
 		"command": "explorer.openAndPassFocus",
 		"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+	},
+	// Escape in explorer focuses on editor
+	{
+		"key": "escape",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	}
 ]
