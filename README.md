@@ -22,7 +22,7 @@ I also use this repo to back up some configs for myself, so not everything here 
 
 ## Features
 
--   Edit files, switch tabs and groups, toggle integrated terminal, navigate, create, rename, and delete files, etc. with keyboard shortcuts.
+-   Edit files, switch tabs and groups, toggle integrated terminal, navigate, create, rename, cut, delete files & folders, etc. with keyboard shortcuts.
 -   Maximize screen space by hiding many of the non-essential UI elements.
 -   Cool (😎) background blur on different widgets.
 -   And more QoL improvements.
