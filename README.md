@@ -9,6 +9,9 @@ I also use this repo to back up some configs for myself, so not everything here 
 ## Table of Contents
 
 -   [Features](#features)
+    -   [Keyboard Shortcuts](#keyboard-shortcuts)
+        -   [General](#general)
+        -   [Vim](#vim)
 -   [Installation](#installation)
 -   [Dependencies](#dependencies)
     -   [Required](#required)
@@ -26,6 +29,46 @@ I also use this repo to back up some configs for myself, so not everything here 
 -   Maximize screen space by hiding many of the non-essential UI elements.
 -   Cool (😎) background blur on different widgets.
 -   And more QoL improvements.
+
+### Keyboard Shortcuts
+
+#### General
+
+| Key Combination         | Command                                             |
+| ----------------------- | --------------------------------------------------- |
+| `A`                     | Create New File/Folder in Explorer                  |
+| `R`                     | Rename File/Folder in Explorer                      |
+| `Y`                     | Copy (yank) File/Folder in Explorer                 |
+| `M`                     | Cut (move) File/Folder in Explorer                  |
+| `P`                     | Paste (put) File/Folder in Explorer                 |
+| `D D`                   | Delete File/Folder in Explorer                      |
+| `[HJKL]`                | Navigate Files/Folders in Explorer                  |
+| `Ctrl + [HJKL]`         | Focus Editor Group                                  |
+| `Ctrl + Shift + [HJKL]` | Move Editor Group                                   |
+| `Ctrl + Shift + .`      | Increase View Size                                  |
+| `Ctrl + Shift + ,`      | Decrease View Size                                  |
+| `Ctrl + E`              | Toggle Focus between Editor and Side Bar (Explorer) |
+| `Ctrl + T`              | Toggle Focus between Terminal and Editor            |
+| `Ctrl + Y`              | Toggle Terminal                                     |
+
+#### Vim
+
+| Key Combination  | Command                           |
+| ---------------- | --------------------------------- |
+| `Space`          | Default Vim Leader Key            |
+| `Leader + F + F` | Open Search                       |
+| `Leader + W`     | Save (`:w`)                       |
+| `Leader + Q`     | Quit (`:q`)                       |
+| `Leader + S`     | Split Editor (`:vsp`)             |
+| `Leader + D`     | Go to Definition                  |
+| `Leader + A`     | Open Quick Fix                    |
+| `Leader + H`     | Open Hover                        |
+| `Leader + /`     | Comment/Uncomment Line            |
+| `Leader + I`     | Toggle Boolean                    |
+| `Tab`            | Cycle to Next Editor in Group     |
+| `Shift + Tab`    | Cycle to Previous Editor in Group |
+| `] + D`          | Go to Next Diagnostic             |
+| `[ + D`          | Go to Previous Diagnostic         |
 
 ## Installation
 
@@ -108,7 +151,15 @@ A modern, feature-rich, privacy focused browser based on Firefox.
 
 ## Preview
 
-![VS Code Preview Image 1](/preview/vscode-1.jpg)
-![VS Code Preview Image 2](/preview/vscode-2.jpg)
-![VS Code Preview Image 3](/preview/vscode-3.jpg)
-![Windows Terminal Preview Image 1](/preview/wt-1.jpg)
+![One Dark Pro Darker 1](/assets/odpd-1.png)
+![One Dark Pro Darker 2](/assets/odpd-2.png)
+![One Dark Pro Darker 3](/assets/odpd-3.png)
+
+<details>
+<summary>Vesper (old)</summary>
+
+![Vesper 1](/assets/vesper-1.png)
+![Vesper 2](/assets/vesper-2.png)
+![Vesper 3](/assets/vesper-3.png)
+
+</details>
