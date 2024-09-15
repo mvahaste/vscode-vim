@@ -158,8 +158,8 @@ A modern, feature-rich, privacy focused browser based on Firefox.
 <details>
 <summary>Vesper (old)</summary>
 
-![Vesper 1](/assets/vesper-1.png)
-![Vesper 2](/assets/vesper-2.png)
-![Vesper 3](/assets/vesper-3.png)
+<img src="assets/vesper-1.jpg" />
+<img src="assets/vesper-2.jpg" />
+<img src="assets/vesper-3.jpg" />
 
 </details>
