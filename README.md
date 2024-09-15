@@ -22,6 +22,8 @@ I also use this repo to back up some configs for myself, so not everything here 
         -   [Terminal and Bash](#terminal-and-bash)
         -   [Zen Browser](#zen-browser)
 -   [Preview](#preview)
+    -   [One Dark Pro Darker](#one-dark-pro-darker)
+    -   [Vesper](#vesper)
 
 ## Features
 
@@ -95,9 +97,10 @@ Required as the base for this setup.
 
 Recommended to get my look.
 
--   Color themes (I switch between these two):
-    -   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) (used in the screenshots).
-    -   [Noir Essence Dark](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark).
+-   Color themes (I switch between these):
+    -   [One Dark Pro Darker](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) (used in the screenshots),
+    -   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) (also has screenshots in the preview section).
+    -   [Noir Essence Dark](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark) (no screenshots!).
 -   [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for file icons.
 -   [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
 -   [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.
@@ -151,15 +154,16 @@ A modern, feature-rich, privacy focused browser based on Firefox.
 
 ## Preview
 
+### One Dark Pro Darker
+
 ![One Dark Pro Darker 1](/assets/odpd-1.png)
 ![One Dark Pro Darker 2](/assets/odpd-2.png)
 ![One Dark Pro Darker 3](/assets/odpd-3.png)
 
-<details>
-<summary>Vesper (old)</summary>
+### Vesper
 
-<img src="assets/vesper-1.jpg" />
-<img src="assets/vesper-2.jpg" />
-<img src="assets/vesper-3.jpg" />
+These screenshots are a bit older but everything is still doable (changing the theme gets you most of the way there), I just switched to a different theme.
 
-</details>
+![Vesper 1](/assets/vesper-1.jpg)
+![Vesper 2](/assets/vesper-2.jpg)
+![Vesper 3](/assets/vesper-3.jpg)

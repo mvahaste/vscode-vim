@@ -21,6 +21,12 @@
 	visibility: initial;
 }
 
+/* Hide the canvas border on the left side by flipping it and insetting to the right by one pixel (couldn't get rid of it by 'normal' means) */
+.editor .decorationsOverviewRuler {
+	transform: translate3d(0px, 0px, 0px) scaleX(-1) !important;
+	right: -1px !important;
+}
+
 /* Background opacity, blur, shadow, and border radius for editor widgets */
 .suggest-widget,
 .suggest-details,
