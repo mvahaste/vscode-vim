@@ -68,7 +68,7 @@
 }
 
 /* Remove black space left by hiding the side bar title */
-.split-view-view .visible {
+.split-view-view .visible:has(.part.sidebar) {
 	background-color: var(--vscode-sideBar-background) !important;
 }
 
