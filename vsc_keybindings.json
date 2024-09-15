@@ -80,10 +80,11 @@
 		"key": "ctrl+shift+k",
 		"command": "workbench.action.moveEditorToAboveGroup"
 	},
-	// Ctrl+E toggle focus between editor and explorer
+	// Ctrl+E toggle focus between editor and explorer (sidebar)
 	{
 		"key": "ctrl+e",
-		"command": "workbench.action.focusSideBar"
+		"command": "workbench.action.focusSideBar",
+		"when": "!sideBarFocus"
 	},
 	{
 		"key": "ctrl+e",
@@ -108,7 +109,7 @@
 		"command": "renameFile",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	},
-	// Y key copies file/folder in explorer
+	// Y key copies (yanks) file/folder in explorer
 	{
 		"key": "y",
 		"command": "filesExplorer.copy",
@@ -120,15 +121,15 @@
 		"command": "filesExplorer.cut",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	},
-	// P key pastes file/folder in explorer
+	// P key pastes (put) file/folder in explorer
 	{
 		"key": "p",
 		"command": "filesExplorer.paste",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	},
-	// D+Y deletes file/folder in explorer
+	// D+D deletes file/folder in explorer
 	{
-		"key": "d y",
+		"key": "d d",
 		"command": "moveFileToTrash",
 		"when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
 	},
@@ -171,7 +172,7 @@
 		"command": "explorer.openAndPassFocus",
 		"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
 	},
-	// Escape in explorer or terminal focuses on editor
+	// Escape in explorer focuses on editor
 	{
 		"key": "escape",
 		"command": "workbench.action.focusActiveEditorGroup",

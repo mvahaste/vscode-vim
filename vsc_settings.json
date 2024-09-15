@@ -1,6 +1,6 @@
 {
 	// Set color theme
-	"workbench.colorTheme": "Vesper",
+	"workbench.colorTheme": "One Dark Pro Darker",
 	// Set icon themes
 	"workbench.iconTheme": "symbols",
 	"workbench.productIconTheme": "fluent-icons",
@@ -8,12 +8,43 @@
 	"editor.fontFamily": "JetBrainsMono Nerd Font",
 	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
 	"debug.console.fontFamily": "JetBrainsMono Nerd Font",
+	// Disable font ligatures
+	"editor.fontLigatures": false,
 	// Tweak Vesper theme to my liking
 	"workbench.colorCustomizations": {
+		"[One Dark Pro Darker]": {
+			// Make the backgrounds darker
+			"editor.background": "#121417",
+			"sideBar.background": "#121417",
+			"sideBarSectionHeader.background": "#121417",
+			"sideBar.border": "#121417",
+			"activityBar.background": "#121417",
+			"activityBar.border": "#121417",
+			"statusBar.background": "#121417",
+			"statusBar.border": "#121417",
+			"statusBar.noFolderBackground": "#121417",
+			"statusBar.debuggingBackground": "#121417",
+			"statusBar.debuggingBorder": "#121417",
+			"titleBar.activeBackground": "#121417",
+			"titleBar.inactiveBackground": "#121417",
+			"panel.border": "#121417",
+			"quickInput.background": "#121417",
+			"menu.background": "#121417",
+			// Selection background
+			"quickInputList.focusBackground": "#1b1e23",
+			"list.focusBackground": "#1b1e23",
+			"list.activeSelectionBackground": "#1b1e23",
+			"list.inactiveSelectionBackground": "#1b1e23",
+			// Indentation guides
+			"editorIndentGuide.background1": "#1b1e23",
+			"editorIndentGuide.activeBackground1": "#262a31",
+			"tree.indentGuidesStroke": "#262a31"
+		},
 		"[Vesper]": {
-			"statusBar.noFolderBackground": "#101010", // Default is #68217a, which doesn't fit the theme
-			"menu.background": "#171717", // Default is #3c3c3c, but I like it darker
-			"menu.separatorBackground": "#202020" // Default is #606060, but I like it darker
+			// Make the backgrounds darker
+			"statusBar.noFolderBackground": "#101010", // Default is #68217a
+			"menu.background": "#171717", // Default is #3c3c3c
+			"menu.separatorBackground": "#202020" // Default is #606060
 		},
 		"[Noir Essence Dark]": {
 			"list.focusOutline": "#7daea3" // Default is transparent, but I navigate with the keyboard so it's helpful to have a border
@@ -21,7 +52,6 @@
 	},
 	// Show current file path in status bar, since I don't use breadcrumbs or tabs
 	"filePathBar.statusBarAlignment": "right",
-	"filePathBar.pathStyle": "relative",
 	// Show the clock in the status bar
 	"clock.format": "HH:MM",
 	"clock.alignment": "Right",
@@ -46,30 +76,39 @@
 	"apc.font.family": "JetBrainsMono Nerd Font",
 	// Import custom CSS
 	"apc.imports": ["/C:/Users/Mikk/Dev/vscode-vim/custom.css"],
+	// Disable title bar on systems that support it
+	"apc.electron": {
+		"titleBarStyle": "hidden"
+	},
 	// Disable explorer action confirmation windows for keyboard-only use
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	// Format on save and paste
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
 	// Visual tweaks (clutter, etc.)
+	"window.title": "${dirty} ${activeRepositoryName} (${activeRepositoryBranchName})",
 	"window.commandCenter": false,
 	"window.menuBarVisibility": "compact",
 	"window.density.editorTabHeight": "compact",
 	"symbols.hidesExplorerArrows": true,
-	"breadcrumbs.enabled": false,
 	"editor.colorDecorators": false,
 	"editor.lightbulb.enabled": "off",
 	"editor.stickyScroll.enabled": false,
 	"editor.linkedEditing": true,
 	"editor.suggest.insertMode": "replace",
 	"editor.lineNumbers": "relative",
-	"editor.minimap.enabled": false,
 	"editor.matchBrackets": "never",
+	"editor.minimap.enabled": true,
+	"editor.minimap.autohide": true,
 	"editor.renderLineHighlight": "none",
-	"editor.guides.indentation": false,
+	"editor.guides.indentation": true,
 	"editor.smoothScrolling": true,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"workbench.sideBar.location": "right",
 	"workbench.tips.enabled": false,
-	"workbench.tree.renderIndentGuides": "none",
+	"workbench.tree.indent": 16,
+	"workbench.tree.renderIndentGuides": "always",
 	"workbench.editor.showTabs": "none",
 	"workbench.activityBar.location": "hidden",
 	"workbench.layoutControl.enabled": false,
