@@ -1,6 +1,4 @@
 {
-	// Set color theme
-	"workbench.colorTheme": "Dark Horizon",
 	// Set icon themes
 	"workbench.iconTheme": "symbols",
 	"workbench.productIconTheme": "fluent-icons",
@@ -10,12 +8,34 @@
 	"debug.console.fontFamily": "JetBrainsMono Nerd Font",
 	// Disable font ligatures
 	"editor.fontLigatures": false,
-	// Tweak Vesper theme to my liking
+	// Tweak themes to my liking
+	"editor.tokenColorCustomizations": {
+		"[Vim Deep Dark]": {
+			// The default comment color is kinda weird
+			"comments": "#5c6370"
+		}
+	},
 	"workbench.colorCustomizations": {
-		"[Vim Dark Hard]": {
-			"editorLineNumber.activeForeground": "#8a7c71"
-			// "sideBar.border": "#0000"
-			// "statusBar.border": "#0000"
+		"[Vim Deep Dark]": {
+			// Make the backgrounds darker
+			"editor.background": "#161818",
+			"sideBar.background": "#161818",
+			"titleBar.activeBackground": "#161818",
+			"statusBar.background": "#161818",
+			"input.background": "#161818",
+			"activityBar.background": "#161818",
+			"editorSuggestWidget.background": "#161818",
+			"quickInput.background": "#161818",
+			"terminal.background": "#161818",
+			// Make the borders transparent
+			"sideBar.border": "#0000",
+			"statusBar.border": "#0000",
+			// Line numbers
+			"editorLineNumber.foreground": "#5c6370",
+			"editorLineNumber.activeForeground": "#5c6370",
+			// Indentation guides
+			"editorIndentGuide.background1": "#252932",
+			"editorIndentGuide.activeBackground1": "#252932"
 		},
 		"[Hyper Term Black]": {
 			"quickInput.background": "#000000",
@@ -26,24 +46,25 @@
 			"editor.background": "#121417",
 			"sideBar.background": "#121417",
 			"sideBarSectionHeader.background": "#121417",
-			"sideBar.border": "#121417",
 			"activityBar.background": "#121417",
-			"activityBar.border": "#121417",
 			"statusBar.background": "#121417",
-			"statusBar.border": "#121417",
 			"statusBar.noFolderBackground": "#121417",
 			"statusBar.debuggingBackground": "#121417",
-			"statusBar.debuggingBorder": "#121417",
 			"titleBar.activeBackground": "#121417",
 			"titleBar.inactiveBackground": "#121417",
-			"panel.border": "#121417",
 			"quickInput.background": "#121417",
 			"input.background": "#121417",
 			"menu.background": "#121417",
 			"editorSuggestWidget.background": "#121417",
 			"sideBarTitle.background": "#121417",
 			"terminal.background": "#121417",
-			"editorInlayHint.background": "#121417",
+			"editorInlayHint.background": "#0000",
+			// Make the borders transparent
+			"sideBar.border": "#0000",
+			"activityBar.border": "#0000",
+			"statusBar.border": "#0000",
+			"statusBar.debuggingBorder": "#0000",
+			"panel.border": "#0000",
 			// Selection background
 			"quickInputList.focusBackground": "#21252c",
 			"editorSuggestWidget.selectedBackground": "#21252c",
@@ -57,14 +78,15 @@
 		},
 		"[Vesper]": {
 			// Make the backgrounds darker
-			"statusBar.noFolderBackground": "#101010", // Default is #68217a
-			"menu.background": "#171717", // Default is #3c3c3c
-			"menu.separatorBackground": "#202020" // Default is #606060
+			"statusBar.noFolderBackground": "#101010",
+			"menu.background": "#171717",
+			"menu.separatorBackground": "#202020"
 		},
 		"[Noir Essence Dark]": {
 			"list.focusOutline": "#7daea3" // Default is transparent, but I navigate with the keyboard so it's helpful to have a border
 		}
 	},
+	"workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
 	// Show current file path in status bar, since I don't use breadcrumbs or tabs
 	"filePathBar.statusBarAlignment": "right",
 	"filePathBar.pathStyle": "relative",
@@ -91,7 +113,7 @@
 	// Override UI font
 	"apc.font.family": "JetBrainsMono Nerd Font",
 	// Import custom CSS
-	"apc.imports": ["/C:/Users/<USER>/Dev/vscode-vim/custom.css"],
+	"apc.imports": ["<PATH-TO-CUSTOM.CSS>"],
 	// Disable title bar on systems that support it
 	// "apc.electron": {
 	// 	"titleBarStyle": "hidden"
