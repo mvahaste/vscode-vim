@@ -1,6 +1,6 @@
 {
 	// Set color theme
-	"workbench.colorTheme": "One Dark Pro Darker",
+	"workbench.colorTheme": "Dark Horizon",
 	// Set icon themes
 	"workbench.iconTheme": "symbols",
 	"workbench.productIconTheme": "fluent-icons",
@@ -12,6 +12,15 @@
 	"editor.fontLigatures": false,
 	// Tweak Vesper theme to my liking
 	"workbench.colorCustomizations": {
+		"[Vim Dark Hard]": {
+			"editorLineNumber.activeForeground": "#8a7c71"
+			// "sideBar.border": "#0000"
+			// "statusBar.border": "#0000"
+		},
+		"[Hyper Term Black]": {
+			"quickInput.background": "#000000",
+			"input.background": "#000000"
+		},
 		"[One Dark Pro Darker]": {
 			// Make the backgrounds darker
 			"editor.background": "#121417",
@@ -82,7 +91,7 @@
 	// Override UI font
 	"apc.font.family": "JetBrainsMono Nerd Font",
 	// Import custom CSS
-	"apc.imports": ["/C:/Users/Mikk/Dev/vscode-vim/custom.css"],
+	"apc.imports": ["/C:/Users/<USER>/Dev/vscode-vim/custom.css"],
 	// Disable title bar on systems that support it
 	// "apc.electron": {
 	// 	"titleBarStyle": "hidden"

@@ -80,6 +80,12 @@
 		"key": "ctrl+shift+k",
 		"command": "workbench.action.moveEditorToAboveGroup"
 	},
+	// Ctrl+Shift+E disables sidebar when already in explorer
+	{
+		"key": "ctrl+shift+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"when": "sideBarVisible && explorerViewletFocus"
+	},
 	// Ctrl+E toggle focus between editor and explorer (sidebar)
 	{
 		"key": "ctrl+e",
