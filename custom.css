@@ -1,6 +1,6 @@
 :root {
 	--blur-size: 25px;
-	--widget-background-opacity: 0.8;
+	--widget-background-opacity: 0.5;
 	--widget-shadow-opacity: 0.1;
 	--suggest-padding: 5px;
 	--suggest-radius: 10px;
@@ -21,7 +21,7 @@
 	visibility: initial;
 }
 
-/* Hide the canvas border on the left side by flipping it and insetting to the right by one pixel (couldn't get rid of it by 'normal' means) */
+/* Hide the canvas border on the left side by flipping it and insetting to the top right by one pixel (couldn't get rid of it by 'normal' means) */
 .editor .decorationsOverviewRuler {
 	transform: translate3d(0px, 0px, 0px) scaleX(-1) !important;
 	right: -1px !important;
@@ -31,6 +31,8 @@
 /* Background opacity, blur, shadow, and border radius for editor widgets */
 .suggest-widget,
 .suggest-details,
+.action-widget,
+.monaco-editor-overlaymessage .message,
 .monaco-hover {
 	background-color: rgb(from var(--vscode-editorSuggestWidget-background) r g b / var(--widget-background-opacity)) !important;
 	backdrop-filter: blur(var(--blur-size)) !important;
@@ -40,12 +42,15 @@
 
 /* Padding for suggestions and details */
 .suggest-widget,
-.suggest-details {
+.suggest-details,
+.action-widget,
+.monaco-editor-overlaymessage .message {
 	padding: var(--suggest-padding) !important;
 }
 
 /* Keep suggestion results' border radii in proportion to the suggest widget itself */
-.suggest-widget .monaco-list-row {
+.suggest-widget .monaco-list-row,
+.action-widget .monaco-list-row {
 	border-radius: calc(var(--suggest-radius) * 0.4) !important;
 }
 
