@@ -14,7 +14,7 @@ function jcr() {
     # Shift the arguments, $@ now contains all arguments except the first one
     shift
 
-    javac $1.java && java $1 $@
+    javac $filename.java && java $filename $@
 }
 
 # Lazy git add, commit and push with message
