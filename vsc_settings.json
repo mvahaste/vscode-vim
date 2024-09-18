@@ -1,6 +1,8 @@
 {
+	// Set color theme
+	"workbench.colorTheme": "Gruvbox Dark Hard",
 	// Set icon themes
-	"workbench.iconTheme": "symbols",
+	"workbench.iconTheme": "gruvbox-material-icon-theme",
 	"workbench.productIconTheme": "fluent-icons",
 	// Set font
 	"editor.fontFamily": "JetBrainsMono Nerd Font",
@@ -16,6 +18,27 @@
 		}
 	},
 	"workbench.colorCustomizations": {
+		"[Minimal]": {
+			// Make the status bar match the rest of the UI
+			"statusBar.background": "#222222"
+		},
+		"[Gruvbox Dark Hard]": {
+			// Make the borders transparent
+			"sideBar.border": "#0000",
+			"statusBar.border": "#0000",
+			"menu.border": "#0000",
+			"panel.border": "#0000",
+			// Give the command palette a border
+			"widget.border": "#3c3836"
+		},
+		"[Gruvbox Light Hard]": {
+			// Make borders transparent
+			"sideBar.border": "#0000",
+			"statusBar.border": "#0000",
+			"panel.border": "#0000",
+			// Give the command palette a border
+			"widget.border": "#ebdbb24b"
+		},
 		"[Vim Deep Dark]": {
 			// Make the backgrounds darker
 			"editor.background": "#161818",
@@ -90,11 +113,9 @@
 	// Show current file path in status bar, since I don't use breadcrumbs or tabs
 	"filePathBar.statusBarAlignment": "right",
 	"filePathBar.pathStyle": "relative",
-	// Show the clock in the status bar
-	"clock.format": "HH:MM",
-	"clock.alignment": "Right",
-	"clock.iconName": "none",
-	"clock.priority": 0,
+	// Show the clock and battery percentage in the status bar
+	"lifeline.clock.format": "HH:mm",
+	"lifeline.swap": true,
 	// Tailwind Fold settings
 	"tailwind-fold.foldStyle": "QUOTES",
 	"tailwind-fold.unfoldIfLineSelected": true,
@@ -127,8 +148,9 @@
 	// Visual tweaks (clutter, etc.)
 	"window.title": "${dirty} ${activeRepositoryName} (${activeRepositoryBranchName})",
 	"window.commandCenter": false,
-	"window.menuBarVisibility": "compact",
+	"window.menuBarVisibility": "hidden",
 	"window.density.editorTabHeight": "compact",
+	"breadcrumbs.enabled": false,
 	"symbols.hidesExplorerArrows": true,
 	"editor.colorDecorators": false,
 	"editor.lightbulb.enabled": "off",
@@ -149,8 +171,9 @@
 	"workbench.tree.renderIndentGuides": "always",
 	"workbench.editor.showTabs": "none",
 	"workbench.activityBar.location": "hidden",
+	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.layoutControl.enabled": false,
-	"breadcrumbs.enabled": false,
+	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
 	// Keep at least 10 lines above and below cursor for context
 	"editor.cursorSurroundingLines": 10,
 	// Vim settings

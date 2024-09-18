@@ -1,6 +1,6 @@
 :root {
 	--blur-size: 25px;
-	--widget-background-opacity: 0.5;
+	--widget-background-opacity: 0.35;
 	--widget-shadow-opacity: 0.1;
 	--suggest-padding: 5px;
 	--suggest-radius: 10px;
@@ -89,24 +89,8 @@
 	transition: all 0.1s ease-in-out !important;
 }
 
-/* Hide the sidebar, tab bar, and title bar actions by default */
-/* Uncomment this if you want the same behavior for the side bar */
-/* .part.sidebar .title-actions, */
-.part.titlebar .monaco-action-bar,
-.editor-group-container .title-actions {
-	opacity: 0 !important;
-}
-
-/* Show the sidebar, tab bar, and title bar actions on hover */
-/* Uncomment this if you want the same behavior for the side bar */
-/* .part.sidebar .title-actions:hover, */
-.part.titlebar .monaco-action-bar:hover,
-.editor-group-container .title-actions:hover {
-	opacity: 1 !important;
-}
-
 /* Remove VS Code icon from the title bar */
-.titlebar-left a {
+.window-appicon {
 	display: none !important;
 	/* Uncomment (^ and comment this) and tweak this if you want custom text/content in your title bar instead of the VS Code icon*/
 	/* background-image: url("") !important;
@@ -116,7 +100,7 @@
 }
 
 /* Uncomment this if you want custom text in your title bar instead of the VS Code icon */
-/* .titlebar-left a::before {
+/* .window-appicon::before {
 	content: "(⁎˃ᆺ˂)";
 } */
 

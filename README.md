@@ -2,7 +2,7 @@
 
 Extensions and settings that make using VS Code faster and feel more like Vim, along with some visual changes.
 
-The CSS (`custom.css`) should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
+The CSS should work with any color theme, but can be easily modified to better suit your needs by adjusting the root variables at the top of the file.
 
 I also use this repo to back up some configs for myself, so not everything here will be useful/relevant to others (terminal prompt, browser settings, etc.)
 
@@ -97,13 +97,17 @@ Required as the base for this setup.
 
 Recommended to get my look.
 
--   Color themes (I switch between these):
-    -   [One Dark Pro Darker](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) (used in the screenshots),
+-   Color themes:
+    -   [Gruvbox Light/Dark Hard](https://marketplace.visualstudio.com/items?itemName=jdinhlife.gruvbox) (current theme, no screenshots).
+    -   [One Dark Pro Darker](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) (used in the screenshots).
     -   [Vesper](https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper) (also has screenshots in the preview section).
-    -   [Noir Essence Dark](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark) (no screenshots!).
--   [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for file icons.
+    -   [Noir Essence Dark](https://marketplace.visualstudio.com/items?itemName=u1145h.u1145h-heme-ark) (no screenshots).
+-   File icon themes:
+    -   [Gruvbox Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=JonathanHarty.gruvbox-material-icon-theme) for gruvbox style icons.
+    -   [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) for general file icons.
 -   [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) for product icons.
 -   [File Path Bar](https://marketplace.visualstudio.com/items?itemName=wraith13.file-path-bar) to show current file path in the status bar.
+-   [Lifeline: Clock & Battery](https://marketplace.visualstudio.com/items?itemName=kjhx.vscode-lifeline) to show the time and battery percentage in the status bar.
 
 ### General
 
