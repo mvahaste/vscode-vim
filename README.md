@@ -36,22 +36,22 @@ I also use this repo to back up some configs for myself, so not everything here 
 
 #### General
 
-| Key Combination         | Command                                             |
-| ----------------------- | --------------------------------------------------- |
-| `A`                     | Create New File/Folder in Explorer                  |
-| `R`                     | Rename File/Folder in Explorer                      |
-| `Y`                     | Copy (yank) File/Folder in Explorer                 |
-| `M`                     | Cut (move) File/Folder in Explorer                  |
-| `P`                     | Paste (put) File/Folder in Explorer                 |
-| `D D`                   | Delete File/Folder in Explorer                      |
-| `[HJKL]`                | Navigate Files/Folders in Explorer                  |
-| `Ctrl + [HJKL]`         | Focus Editor Group                                  |
-| `Ctrl + Shift + [HJKL]` | Move Editor Group                                   |
-| `Ctrl + Shift + .`      | Increase View Size                                  |
-| `Ctrl + Shift + ,`      | Decrease View Size                                  |
-| `Ctrl + E`              | Toggle Focus between Editor and Side Bar (Explorer) |
-| `Ctrl + T`              | Toggle Focus between Terminal and Editor            |
-| `Ctrl + Y`              | Toggle Terminal                                     |
+| Key Combination         | Command                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------- |
+| `A`                     | Create New File/Folder in Explorer                                               |
+| `R`                     | Rename File/Folder in Explorer                                                   |
+| `Y`                     | Copy (yank) File/Folder in Explorer                                              |
+| `M`                     | Cut (move) File/Folder in Explorer                                               |
+| `P`                     | Paste (put) File/Folder in Explorer                                              |
+| `D D`                   | Delete File/Folder in Explorer                                                   |
+| `[HJKL]`                | Navigate Files/Folders in Explorer                                               |
+| `Ctrl + [HJKL]`         | Focus Editor Group                                                               |
+| `Ctrl + Shift + [HJKL]` | Move Editor Group                                                                |
+| `Ctrl + Shift + .`      | Increase View Size                                                               |
+| `Ctrl + Shift + ,`      | Decrease View Size                                                               |
+| `Ctrl + E`              | Toggle Focus between Editor and Side Bar (Explorer) / Hide Side Bar when Focused |
+| `Ctrl + T`              | Toggle Focus between Panel and Editor                                            |
+| `Ctrl + Y`              | Toggle Panel and Focus                                                           |
 
 #### Vim
 
@@ -63,10 +63,11 @@ I also use this repo to back up some configs for myself, so not everything here 
 | `Leader + Q`     | Quit (`:q`)                       |
 | `Leader + S`     | Split Editor (`:vsp`)             |
 | `Leader + D`     | Go to Definition                  |
-| `Leader + A`     | Open Quick Fix                    |
+| `Leader + A`     | Open Code Actions                 |
 | `Leader + H`     | Open Hover                        |
 | `Leader + /`     | Comment/Uncomment Line            |
 | `Leader + I`     | Toggle Boolean                    |
+| `Leader + C`     | Open Inline Copilot Chat          |
 | `Tab`            | Cycle to Next Editor in Group     |
 | `Shift + Tab`    | Cycle to Previous Editor in Group |
 | `] + D`          | Go to Next Diagnostic             |
@@ -78,7 +79,7 @@ I also use this repo to back up some configs for myself, so not everything here 
 2. Copy the contents of `vsc_settings.json` into your VS Code `settings.json`.
 3. Copy the contents of `vsc_keybindings.json` into your VS Code `keybindings.json`.
 4. Add the path to the `custom.css` file into your `settings.json`.
-5. If you want the Vesper theme for Windows Terminal, copy the contents of `wt_settings.json` into your Windows Terminal `settings.json`
+5. If you want the Gruvbox Dark Hard theme for Windows Terminal, copy the contents of `wt_settings.json` into your Windows Terminal `settings.json`
 6. If you want my bash settings, copy and append the contents of `bash.bashrc` into your `.bashrc`/`bash.bashrc`.
 7. If you want fast virtual desktop switching on Windows, install AutoHotkey and the script from the link below, then replace the `user_config.ahk` with the one in the repo.
 
@@ -135,7 +136,7 @@ Easier switching between virtual desktops in windows along with keyboard shortcu
 
 A fancier Windows terminal experience.
 
--   [Vesper](/wt_settings.json) for the color scheme (created from the VS Code color theme).
+-   [Gruvbox Dark Hard](/wt_settings.json) for the color scheme (generated from the VS Code color theme).
 -   [Oh My Posh](https://ohmyposh.dev/) for the terminal prompt.
 -   [zoxide](https://github.com/ajeetdsouza/zoxide) for a smarter cd command.
 -   [huvix theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/huvix.omp.json) as the prompt theme.

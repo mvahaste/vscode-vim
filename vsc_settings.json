@@ -1,6 +1,6 @@
 {
 	// Set color theme
-	"workbench.colorTheme": "Gruvbox Dark Hard",
+	"workbench.colorTheme": "One Dark Pro Darker",
 	// Set icon themes
 	"workbench.iconTheme": "gruvbox-material-icon-theme",
 	"workbench.productIconTheme": "fluent-icons",
@@ -159,7 +159,7 @@
 	"editor.suggest.insertMode": "replace",
 	"editor.lineNumbers": "relative",
 	"editor.matchBrackets": "never",
-	"editor.minimap.enabled": true,
+	"editor.minimap.enabled": false,
 	"editor.minimap.autohide": true,
 	"editor.renderLineHighlight": "none",
 	"editor.guides.indentation": true,
@@ -174,8 +174,8 @@
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.layoutControl.enabled": false,
 	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
-	// Keep at least 10 lines above and below cursor for context
-	"editor.cursorSurroundingLines": 10,
+	// Keep at least 15 lines above and below cursor for context
+	"editor.cursorSurroundingLines": 15,
 	// Vim settings
 	"vim.leader": "<space>",
 	// Allow going over folded lines without opening them
@@ -254,6 +254,11 @@
 		{
 			"before": ["[", "d"],
 			"commands": ["editor.action.marker.prev"]
+		},
+		// Leader+C opens inline Copilot chat
+		{
+			"before": ["<leader>", "c"],
+			"commands": ["inlineChat.start"]
 		}
 	],
 	"vim.visualModeKeyBindingsNonRecursive": [
@@ -261,6 +266,11 @@
 		{
 			"before": ["<leader>", "/"],
 			"commands": ["editor.action.commentLine"]
+		},
+		// Leader+C opens inline Copilot chat
+		{
+			"before": ["<leader>", "c"],
+			"commands": ["inlineChat.start"]
 		}
 	],
 	"diffEditor.ignoreTrimWhitespace": false,

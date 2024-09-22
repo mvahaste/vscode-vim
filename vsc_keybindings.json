@@ -15,20 +15,20 @@
 		"command": "workbench.action.closeActiveEditor",
 		"when": "editorFocus"
 	},
-	// Ctrl+T toggle between terminal and editor
+	// Ctrl+T toggle between panel and editor
 	{
 		"key": "ctrl+t",
-		"command": "workbench.action.terminal.focus"
+		"command": "workbench.action.focusPanel"
 	},
 	{
 		"key": "ctrl+t",
 		"command": "workbench.action.focusActiveEditorGroup",
 		"when": "terminalFocus"
 	},
-	// Ctrl+Y toggle terminal (open or close)
+	// Ctrl+Y toggle panel
 	{
 		"key": "ctrl+y",
-		"command": "workbench.action.terminal.toggleTerminal"
+		"command": "workbench.action.togglePanel"
 	},
 	// Ctrl+Shift+. increase editor width
 	{
