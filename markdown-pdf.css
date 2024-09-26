@@ -1,0 +1,36 @@
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: black;
+	background-color: #afb8c133;
+	padding: 0.2em 0.4em;
+	margin: 0;
+	border-radius: 6px;
+	font-size: 75%;
+	font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+/* for inline code inside header */
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: 85% !important;
+}
+
+/* for code block */
+pre {
+	border: none;
+	border-radius: 6px;
+	background-color: #afb8c133;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 4px 10px;
+	overflow: auto;
+	color: black;
+	font-size: 75%;
+	font-family: "JetBrainsMono Nerd Font", monospace;
+}
