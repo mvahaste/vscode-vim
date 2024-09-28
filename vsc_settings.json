@@ -1,6 +1,6 @@
 {
 	// Set color theme
-	"workbench.colorTheme": "One Dark Pro Darker",
+	"workbench.colorTheme": "Gruvbox Dark Hard",
 	// Set icon themes
 	"workbench.iconTheme": "gruvbox-material-icon-theme",
 	"workbench.productIconTheme": "fluent-icons",
@@ -28,6 +28,8 @@
 			"statusBar.border": "#0000",
 			"menu.border": "#0000",
 			"panel.border": "#0000",
+			// Make inlay hint background transparent
+			"editorInlayHint.background": "#0000",
 			// Give the command palette a border
 			"widget.border": "#3c3836"
 		},
@@ -36,6 +38,8 @@
 			"sideBar.border": "#0000",
 			"statusBar.border": "#0000",
 			"panel.border": "#0000",
+			// Make inlay hint background transparent
+			"editorInlayHint.background": "#0000",
 			// Give the command palette a border
 			"widget.border": "#ebdbb24b"
 		},
@@ -50,6 +54,8 @@
 			"editorSuggestWidget.background": "#161818",
 			"quickInput.background": "#161818",
 			"terminal.background": "#161818",
+			// Make inlay hint background transparent
+			"editorInlayHint.background": "#0000",
 			// Make the borders transparent
 			"sideBar.border": "#0000",
 			"statusBar.border": "#0000",
@@ -65,7 +71,7 @@
 			"input.background": "#000000"
 		},
 		"[One Dark Pro Darker]": {
-			// Make the backgrounds darker
+			// Make ALL backgrounds darker
 			"editor.background": "#121417",
 			"sideBar.background": "#121417",
 			"sideBarSectionHeader.background": "#121417",
@@ -81,6 +87,7 @@
 			"editorSuggestWidget.background": "#121417",
 			"sideBarTitle.background": "#121417",
 			"terminal.background": "#121417",
+			// Make inlay hint background transparent
 			"editorInlayHint.background": "#0000",
 			// Make the borders transparent
 			"sideBar.border": "#0000",
@@ -259,6 +266,16 @@
 		{
 			"before": ["<leader>", "c"],
 			"commands": ["inlineChat.start"]
+		},
+		// J is always GJ
+		{
+			"before": ["j"],
+			"after": ["g", "j"]
+		},
+		// K is always GK
+		{
+			"before": ["k"],
+			"after": ["g", "k"]
 		}
 	],
 	"vim.visualModeKeyBindingsNonRecursive": [
@@ -271,6 +288,21 @@
 		{
 			"before": ["<leader>", "c"],
 			"commands": ["inlineChat.start"]
+		},
+		// Leader+I to toggle boolean
+		{
+			"before": ["<leader>", "i"],
+			"commands": ["extension.toggleBool"]
+		},
+		// J is always GJ
+		{
+			"before": ["j"],
+			"after": ["g", "j"]
+		},
+		// K is always GK
+		{
+			"before": ["k"],
+			"after": ["g", "k"]
 		}
 	],
 	"diffEditor.ignoreTrimWhitespace": false,
