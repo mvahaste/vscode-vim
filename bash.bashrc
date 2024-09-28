@@ -8,13 +8,8 @@ function jcr() {
         return
     fi
 
-    # Remember the first argument as the filename
-    local filename=$1
-
-    # Shift the arguments, $@ now contains all arguments except the first one
-    shift
-
-    javac $filename.java && java $filename $@
+    # Compile with UTF-8 encoding and pass arguments
+    javac -encoding UTF-8 "$1.java" && java "$1" "${@:2}"
 }
 
 # Lazy git add, commit and push with message
