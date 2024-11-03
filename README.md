@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> Not keeping this up to date anymore, switched to [neovim](https://github.com/mvahaste/dotfiles).
+> Not keeping this up to date anymore, switched to [nvim](https://github.com/mvahaste/dotfiles).
 
 # Make VS Code on Windows feel more like Vim
 
